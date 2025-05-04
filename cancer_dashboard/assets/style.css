@@ -1,0 +1,44 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+}
+
+.header {
+    text-align: center;
+    color: #2c3e50;
+    padding: 20px;
+}
+
+.selectors {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.selectors div {
+    width: 45%;
+}
+
+.dropdown {
+    width: 100%;
+    padding: 10px;
+    font-size: 14px;
+    margin-top: 5px;
+}
+
+#graphs {
+    display: flex;
+    justify-content: space-between;
+}
+
+#graphs > div {
+    width: 48%;
+}
